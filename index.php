@@ -40,7 +40,7 @@ $this->need('layout/_partial/head.php');
                     <?php $this->category(','); ?>
                     <?php $this->tags(' ', true); ?>
                 </div>
-                <article>
+                <article class="nexmoe-article">
                     <?php $this->content(''); ?>
                 </article>
             </div>
