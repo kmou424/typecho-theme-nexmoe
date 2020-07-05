@@ -21,7 +21,7 @@ $this->need('layout/_partial/head.php');
         
         <section class="nexmoe-posts" id="brand-waterfall">
             <?php while($this->next()): ?>
-            <div class="nexmoe-post">
+            <div class="nexmoe-post mdui-ripple card">
                 <a href="<?php $this->permalink() ?>">
                     <div class="nexmoe-post-cover mdui-ripple"> 
                         <?php if ($this->fields->Cover){ ?>
